@@ -114,7 +114,15 @@ int TBitField::operator==(const TBitField& bf) const // сравнение
 
 int TBitField::operator!=(const TBitField& bf) const // сравнение
 {
-	return !(*this == bf);
+	if (BitLen != bf.BitLen) {
+		return 1;
+	}
+	for (int i = 0; i < MemLen; i++) {
+		if (pMem[i] != bf.pMem[i]) {
+			return 1;
+		}
+	}
+	return 0;
 }
 
 TBitField TBitField::operator|(const TBitField& bf) // операция "или"
