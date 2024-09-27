@@ -9,6 +9,7 @@
 #define __BITFIELD_H__
 
 #include <iostream>
+#include <stdexcept>
 
 using namespace std;
 
