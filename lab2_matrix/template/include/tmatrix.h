@@ -80,10 +80,10 @@ public:
   TDynamicVector operator+(T val)
   {
   }
-  TDynamicVector operator-(double val)
+  TDynamicVector operator-(T val)
   {
   }
-  TDynamicVector operator*(double val)
+  TDynamicVector operator*(T val)
   {
   }
 
