@@ -5,9 +5,11 @@
 //
 // Тестирование битового поля и множества
 
+#include <iostream>
 #include <iomanip>
+#include <clocale>
 
-// #define USE_SET // Использовать класс TSet,
+//#define USE_SET // Использовать класс TSet,
                 // закоментировать, чтобы использовать битовое поле
 
 #ifndef USE_SET // Использовать класс TBitField
@@ -18,7 +20,7 @@ int main()
 {
   int n, m, k, count;
 
-  setlocale(LC_ALL, "Russian");
+  setlocale(0, "");
   cout << "Тестирование программ поддержки битового поля" << endl;
   cout << "             Решето Эратосфена" << endl;
   cout << "Введите верхнюю границу целых значений - ";
