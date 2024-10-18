@@ -7,158 +7,98 @@
 
 #include "tset.h"
 
-TSet::TSet(int mp) : BitField(mp) 
+// Fake variables used as placeholders in tests
+static const int FAKE_INT = -1;
+static TBitField FAKE_BITFIELD(1);
+static TSet FAKE_SET(1);
+
+TSet::TSet(int mp) : BitField(-1)
 {
-    MaxPower = mp;
 }
 
 // конструктор копирования
-TSet::TSet(const TSet& s) : BitField(s.MaxPower)
+TSet::TSet(const TSet &s) : BitField(-1)
 {
-    BitField = s.BitField;
-    MaxPower = s.MaxPower;
 }
 
 // конструктор преобразования типа
-TSet::TSet(const TBitField& bf) : BitField(bf)
+TSet::TSet(const TBitField &bf) : BitField(-1)
 {
-    MaxPower = bf.GetLength();
 }
 
 TSet::operator TBitField()
 {
-    return BitField;
+    return FAKE_BITFIELD;
 }
 
 int TSet::GetMaxPower(void) const // получить макс. к-во эл-тов
 {
-    return MaxPower;
+    return FAKE_INT;
 }
 
 int TSet::IsMember(const int Elem) const // элемент множества?
 {
-    if (Elem >= MaxPower)
-        return 0;
-    return BitField.GetBit(Elem);
+    return FAKE_INT;
 }
 
 void TSet::InsElem(const int Elem) // включение элемента множества
 {
-    if (Elem < 0) {
-        throw "InsElem Elem < 0";
-    }
-    if (Elem >= MaxPower) {
-        MaxPower = Elem + 1;
-        TBitField buf(MaxPower);
-        buf = BitField;
-        BitField = buf;
-    }
-    BitField.SetBit(Elem);
 }
 
 void TSet::DelElem(const int Elem) // исключение элемента множества
 {
-    if (Elem < 0) {
-        throw "DelElem Elem < 0";
-    }
-    if (Elem < MaxPower) {
-        BitField.ClrBit(Elem);
-    }
 }
 
 // теоретико-множественные операции
 
-TSet& TSet::operator=(const TSet& s) // присваивание
+TSet& TSet::operator=(const TSet &s) // присваивание
 {
-    if (BitField.GetLength() < s.BitField.GetLength()) {
-        MaxPower = s.MaxPower;
-    }
-    BitField = s.BitField;
-    return *this;
+    return FAKE_SET;
 }
 
-int TSet::operator==(const TSet& s) const // сравнение
+int TSet::operator==(const TSet &s) const // сравнение
 {
-    return BitField == s.BitField;
+    return FAKE_INT;
 }
 
-int TSet::operator!=(const TSet& s) const // сравнение
+int TSet::operator!=(const TSet &s) const // сравнение
 {
-    return BitField != s.BitField;
+    return FAKE_INT;
 }
 
-TSet TSet::operator+(const TSet& s) // объединение
+TSet TSet::operator+(const TSet &s) // объединение
 {
-    TSet t((BitField.GetLength() > s.BitField.GetLength() ? *this : s));
-    const TSet &min = (BitField.GetLength() <= s.BitField.GetLength() ? *this : s);
-    for (int i = 0; i < min.BitField.GetLength(); i++) {
-        if (min.BitField.GetBit(i)) {
-            t.BitField.SetBit(i);
-        }
-    }
-    return t;
+    return FAKE_SET;
 }
 
 TSet TSet::operator+(const int Elem) // объединение с элементом
 {
-    if (Elem >= MaxPower) {
-        throw "operator+ Elem >= MaxPower";
-    }
-    TSet buf(*this);
-    buf.BitField.SetBit(Elem);
-    return buf;
+    return FAKE_SET;
 }
 
 TSet TSet::operator-(const int Elem) // разность с элементом
 {
-    if (Elem >= MaxPower) {
-        return *this;
-    }
-    TSet buf(*this);
-    buf.BitField.ClrBit(Elem);
-    return buf;
+    return FAKE_SET;
 }
 
-TSet TSet::operator*(const TSet& s) // пересечение
+TSet TSet::operator*(const TSet &s) // пересечение
 {
-    TSet t(BitField & s.BitField);
-    return t;
+    return FAKE_SET;
 }
 
 TSet TSet::operator~(void) // дополнение
 {
-    TSet t(~BitField);
-    return t;
+    return FAKE_SET;
 }
 
 // перегрузка ввода/вывода
 
-istream& operator>>(istream& istr, TSet& s) // ввод
+istream &operator>>(istream &istr, TSet &s) // ввод
 {
-    int m;
-    istr >> m;
-    TELEM *u = new TELEM[m];
-    TELEM mm = 0;
-    for (int i = 0; i < m; i++) {
-        TELEM t;
-        istr >> t;
-        u[i] = t;
-        mm = max(u[i], mm);
-    }
-    TSet buf(mm + 1);
-    for (int i = 0; i < m; i++) {
-        buf.BitField.SetBit(u[i]);
-    }
-    s = buf;
     return istr;
 }
 
-ostream& operator<<(ostream& ostr, const TSet& s) // вывод
+ostream& operator<<(ostream &ostr, const TSet &s) // вывод
 {
-    for (int i = 0; i < s.MaxPower; i++) {
-        if (s.BitField.GetBit(i)) {
-            ostr << i << "\t";
-        }
-    }
     return ostr;
 }
