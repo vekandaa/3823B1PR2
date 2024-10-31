@@ -1,0 +1,10 @@
+^C:\USERS\ПОЛЬЗОВАТЕЛЬ\3823B1PR2\LAB1_BITSET\TSYPLAKOV\BUILD\CMAKEFILES\C2B4FFD01353D27267343ADA89BD0E5B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Пользователь/3823B1PR2/lab1_bitset/Tsyplakov -BC:/Users/Пользователь/3823B1PR2/lab1_bitset/Tsyplakov/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Пользователь/3823B1PR2/lab1_bitset/Tsyplakov/build/set.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
