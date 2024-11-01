@@ -8,10 +8,6 @@
 #include "tbitfield.h"
 #define ONE_MEM_BITS (sizeof(TELEM) * 8)
 
-// Fake variables used as placeholders in tests
-static const int FAKE_INT = -1;
-static TBitField FAKE_BITFIELD(1);
-
 TBitField::TBitField(int len)
 {
 	if (len < 0) {
@@ -42,12 +38,10 @@ TBitField::~TBitField()
 
 int TBitField::GetMemIndex(const int n) const // индекс Мем для бита n
 {
-    return FAKE_INT;
 }
 
 TELEM TBitField::GetMemMask(const int n) const // битовая маска для бита n
 {
-    return FAKE_INT;
 }
 
 // доступ к битам битового поля
@@ -88,7 +82,6 @@ int TBitField::GetBit(const int n) const // получить значение б
 
 TBitField& TBitField::operator=(const TBitField& bf) // присваивание
 {
-    return FAKE_BITFIELD;
 }
 
 int TBitField::operator==(const TBitField& bf) const // сравнение
@@ -103,24 +96,20 @@ int TBitField::operator!=(const TBitField& bf) const // сравнение
 
 TBitField TBitField::operator|(const TBitField& bf) // операция "или"
 {
-    return FAKE_BITFIELD;
 }
 
 TBitField TBitField::operator&(const TBitField& bf) // операция "и"
 {
-    return FAKE_BITFIELD;
 }
 
 TBitField TBitField::operator~(void) // отрицание
 {
-    return FAKE_BITFIELD;
 }
 
 // ввод/вывод
 
 istream& operator>>(istream& istr, TBitField& bf) // ввод
 {
-    return istr;
 }
 
 ostream& operator<<(ostream& ostr, const TBitField& bf) // вывод

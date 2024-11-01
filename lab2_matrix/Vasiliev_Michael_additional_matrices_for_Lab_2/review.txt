@@ -1,0 +1,8 @@
+Результаты умножений двух разреженных квадратных матриц размером 500:
+
+1. Базовая интерпретация матриц (вектора векторов) - 1600 мс  (base_matrix.h; --- mult_matr_base_time.cpp)
+2. Векторная интерпретация матриц (i * N + j) - 1050 мс  (base_matrix_copy.h; --- mult_matr_base_time_copy.cpp)
+3. COO матрица (NonZeroes, IndRow, IndCol) - 180 мс  (sparce_math.h; --- mult_matr_time.cpp)
+4. CSR матрица (NonZeroes, ptr_row, IndCol) - 40 мс  (sparce_matr_csr.h; --- mult_matr_time_csr.cpp)
+
+Вывод: Самый эффективный способ представления матрицы по памяти и скорости - CSR (Compressed Sparce Row) формат матрицы.

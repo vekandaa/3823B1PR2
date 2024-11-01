@@ -138,4 +138,3 @@ TEST(TDynamicVector, cant_multiply_vectors_with_not_equal_size)
 {
   ADD_FAILURE();
 }
-
