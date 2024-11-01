@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\3823B1PR2\\lab2_matrix\\template\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\3823B1PR2\\lab2_matrix\\template\\test\\test_tvector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test\\test_tvector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\3823B1PR2\\lab2_matrix\\template\\test\\test_tmatrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test\\test_tmatrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\3823B1PR2\\lab2_matrix\\template\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\3823B1PR2\\lab2_matrix\\template\\samples\\sample_matrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:samples\\sample_matrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\3823B1PR2\\lab2_matrix\\template\\test\\test_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test\\test_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\3823B1PR2\\lab2_matrix\\template\\include\\tmatrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\tmatrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\3823B1PR2\\lab2_matrix\\template\\gtest\\gtest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:gtest\\gtest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test_tvector.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\3823B1PR2\\lab2_matrix\\template\\test\\test_tvector.cpp",
+              "RelativeDocumentMoniker": "test\\test_tvector.cpp",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\3823B1PR2\\lab2_matrix\\template\\test\\test_tvector.cpp",
+              "RelativeToolTip": "test\\test_tvector.cpp",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-24T23:28:00.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "test_tmatrix.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\3823B1PR2\\lab2_matrix\\template\\test\\test_tmatrix.cpp",
+              "RelativeDocumentMoniker": "test\\test_tmatrix.cpp",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\3823B1PR2\\lab2_matrix\\template\\test\\test_tmatrix.cpp",
+              "RelativeToolTip": "test\\test_tmatrix.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-24T23:27:19.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\3823B1PR2\\lab2_matrix\\template\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\3823B1PR2\\lab2_matrix\\template\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-10-24T23:24:43.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "test_main.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\3823B1PR2\\lab2_matrix\\template\\test\\test_main.cpp",
+              "RelativeDocumentMoniker": "test\\test_main.cpp",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\3823B1PR2\\lab2_matrix\\template\\test\\test_main.cpp",
+              "RelativeToolTip": "test\\test_main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-24T23:24:23.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "sample_matrix.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\3823B1PR2\\lab2_matrix\\template\\samples\\sample_matrix.cpp",
+              "RelativeDocumentMoniker": "samples\\sample_matrix.cpp",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\3823B1PR2\\lab2_matrix\\template\\samples\\sample_matrix.cpp",
+              "RelativeToolTip": "samples\\sample_matrix.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-24T23:19:26.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "tmatrix.h",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\3823B1PR2\\lab2_matrix\\template\\include\\tmatrix.h",
+              "RelativeDocumentMoniker": "include\\tmatrix.h",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\3823B1PR2\\lab2_matrix\\template\\include\\tmatrix.h",
+              "RelativeToolTip": "include\\tmatrix.h",
+              "ViewState": "AgIAAAYBAAAAAAAAAAAAwEIBAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-17T23:08:58.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "gtest.h",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\3823B1PR2\\lab2_matrix\\template\\gtest\\gtest.h",
+              "RelativeDocumentMoniker": "gtest\\gtest.h",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u0438\u043D\u0430\\3823B1PR2\\lab2_matrix\\template\\gtest\\gtest.h",
+              "RelativeToolTip": "gtest\\gtest.h",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-17T23:04:54.989Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

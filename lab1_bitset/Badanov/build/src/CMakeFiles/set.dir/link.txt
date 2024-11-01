@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../lib/libset.a CMakeFiles/set.dir/tbitfield.cpp.o CMakeFiles/set.dir/tset.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../lib/libset.a

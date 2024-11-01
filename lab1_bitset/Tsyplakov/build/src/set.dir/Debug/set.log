@@ -1,0 +1,3 @@
+﻿  tbitfield.cpp
+C:\Users\Пользователь\3823B1PR2\lab1_bitset\Tsyplakov\src\tbitfield.cpp(138): warning C4717: TBitField::operator!=: рекурсия на всех путях выполнения, функция вызовет переполнение стека
+  set.vcxproj -> C:\Users\Пользователь\3823B1PR2\lab1_bitset\Tsyplakov\build\lib\Debug\set.lib

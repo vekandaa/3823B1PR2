@@ -1,0 +1,10 @@
+^C:\USERS\RABAT\3823B1PR2\LAB2_MATRIX\KOTELNIKOVA\BUILD\CMAKEFILES\DD7D778A15767DEDACE815A95D027EC9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/rabat/3823B1PR2/lab2_matrix/template -BC:/Users/rabat/3823B1PR2/lab2_matrix/Kotelnikova/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/rabat/3823B1PR2/lab2_matrix/Kotelnikova/build/Project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
