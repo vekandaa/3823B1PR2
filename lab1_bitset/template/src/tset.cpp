@@ -41,12 +41,21 @@ int TSet::IsMember(const int Elem) const // элемент множества?
     return FAKE_INT;
 }
 
+
 void TSet::InsElem(const int Elem) // включение элемента множества
 {
+    if (Elem < 0 || Elem >= MaxPower) {
+        throw "Element index out of range";
+    }
+    BitField.SetBit(Elem);
 }
 
 void TSet::DelElem(const int Elem) // исключение элемента множества
 {
+    if (Elem < 0 || Elem >= MaxPower) {
+        throw "Element index out of range";
+    }
+    BitField.ClrBit(Elem);
 }
 
 // теоретико-множественные операции
