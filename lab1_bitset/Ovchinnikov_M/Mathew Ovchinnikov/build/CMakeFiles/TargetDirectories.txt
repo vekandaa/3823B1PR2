@@ -1,0 +1,6 @@
+C:/Users/BeSTa/3823B1PR2/lab1_bitset/Mathew Ovchinnikov/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/BeSTa/3823B1PR2/lab1_bitset/Mathew Ovchinnikov/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/BeSTa/3823B1PR2/lab1_bitset/Mathew Ovchinnikov/build/src/CMakeFiles/set.dir
+C:/Users/BeSTa/3823B1PR2/lab1_bitset/Mathew Ovchinnikov/build/samples/CMakeFiles/sample_prime_numbers.dir
+C:/Users/BeSTa/3823B1PR2/lab1_bitset/Mathew Ovchinnikov/build/gtest/CMakeFiles/gtest.dir
+C:/Users/BeSTa/3823B1PR2/lab1_bitset/Mathew Ovchinnikov/build/test/CMakeFiles/test_set.dir

@@ -1,0 +1,11 @@
+C:/Users/Полина/3823B1PR2/lab2_matrix/template/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Полина/3823B1PR2/lab2_matrix/template/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Полина/3823B1PR2/lab2_matrix/template/out/build/x64-Debug/samples/CMakeFiles/matrix.dir
+C:/Users/Полина/3823B1PR2/lab2_matrix/template/out/build/x64-Debug/samples/CMakeFiles/edit_cache.dir
+C:/Users/Полина/3823B1PR2/lab2_matrix/template/out/build/x64-Debug/samples/CMakeFiles/rebuild_cache.dir
+C:/Users/Полина/3823B1PR2/lab2_matrix/template/out/build/x64-Debug/test/CMakeFiles/test_matrix.dir
+C:/Users/Полина/3823B1PR2/lab2_matrix/template/out/build/x64-Debug/test/CMakeFiles/edit_cache.dir
+C:/Users/Полина/3823B1PR2/lab2_matrix/template/out/build/x64-Debug/test/CMakeFiles/rebuild_cache.dir
+C:/Users/Полина/3823B1PR2/lab2_matrix/template/out/build/x64-Debug/gtest/CMakeFiles/gtest.dir
+C:/Users/Полина/3823B1PR2/lab2_matrix/template/out/build/x64-Debug/gtest/CMakeFiles/edit_cache.dir
+C:/Users/Полина/3823B1PR2/lab2_matrix/template/out/build/x64-Debug/gtest/CMakeFiles/rebuild_cache.dir

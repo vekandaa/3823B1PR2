@@ -12,12 +12,12 @@ TSet::TSet(int mp) : BitField(-1)
 }
 
 // конструктор копирования
-TSet::TSet(const TSet& s) : BitField(-1)
+TSet::TSet(const TSet& s) : BitField(s.BitField)
 {
 }
 
 // конструктор преобразования типа
-TSet::TSet(const TBitField& bf) : BitField(-1)
+TSet::TSet(const TBitField& bf) : BitField(bf)
 {
 }
 
@@ -34,12 +34,21 @@ int TSet::IsMember(const int Elem) const // элемент множества?
     return 0;
 }
 
+
 void TSet::InsElem(const int Elem) // включение элемента множества
 {
+    if (Elem < 0 || Elem >= MaxPower) {
+        throw "Element index out of range";
+    }
+    BitField.SetBit(Elem);
 }
 
 void TSet::DelElem(const int Elem) // исключение элемента множества
 {
+    if (Elem < 0 || Elem >= MaxPower) {
+        throw "Element index out of range";
+    }
+    BitField.ClrBit(Elem);
 }
 
 // теоретико-множественные операции
@@ -76,7 +85,6 @@ TSet TSet::operator*(const TSet& s) // пересечение
 TSet TSet::operator~(void) // дополнение
 {
 }
-
 // перегрузка ввода/вывода
 
 istream& operator>>(istream& istr, TSet& s) // ввод
@@ -85,4 +93,5 @@ istream& operator>>(istream& istr, TSet& s) // ввод
 
 ostream& operator<<(ostream& ostr, const TSet& s) // вывод
 {
+    return ostr;
 }

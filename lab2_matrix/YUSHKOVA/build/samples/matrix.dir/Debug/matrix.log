@@ -1,0 +1,13 @@
+﻿  Building Custom Rule C:/Users/Полина/3823B1PR2/lab2_matrix/template/samples/CMakeLists.txt
+  sample_matrix.cpp
+C:\Users\Полина\3823B1PR2\lab2_matrix\template\include\tmatrix.h(268,7): error C3861: assert: идентификатор не найден
+  (компиляция исходного файла "../../../template/samples/sample_matrix.cpp")
+      C:\Users\Полина\3823B1PR2\lab2_matrix\template\include\tmatrix.h(268,7):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\Полина\3823B1PR2\lab2_matrix\template\samples\sample_matrix.cpp(13,23):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "TDynamicMatrix<int>"
+          C:\Users\Полина\3823B1PR2\lab2_matrix\template\include\tmatrix.h(267,18):
+          во время компиляции функции-члена класс шаблон "TDynamicMatrix<int> TDynamicMatrix<int>::operator +(const TDynamicMatrix<int> &)"
+              C:\Users\Полина\3823B1PR2\lab2_matrix\template\samples\sample_matrix.cpp(25,5):
+              см. первую ссылку на "TDynamicMatrix<int>::operator +" в "main"
+  

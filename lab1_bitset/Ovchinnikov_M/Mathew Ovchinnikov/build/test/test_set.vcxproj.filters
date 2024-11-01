@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\BeSTa\3823B1PR2\lab1_bitset\template\test\test_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BeSTa\3823B1PR2\lab1_bitset\template\test\test_tbitfield.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BeSTa\3823B1PR2\lab1_bitset\template\test\test_tset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\BeSTa\3823B1PR2\lab1_bitset\template\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9E6CF5C3-0D8B-3108-ACA5-D9006CEB807B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

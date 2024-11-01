@@ -1,0 +1,3 @@
+C:/Users/Полина/3823B1PR2/lab2_matrix/template/test/out/build/x64-Debug/CMakeFiles/test_matrix.dir
+C:/Users/Полина/3823B1PR2/lab2_matrix/template/test/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Полина/3823B1PR2/lab2_matrix/template/test/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
