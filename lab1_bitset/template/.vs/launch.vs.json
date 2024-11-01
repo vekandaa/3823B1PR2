@@ -1,0 +1,18 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "sample_prime_numbers.exe (bin\\sample_prime_numbers.exe)",
+      "name": "sample_prime_numbers.exe (bin\\sample_prime_numbers.exe)"
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "test_set.exe (bin\\test_set.exe)",
+      "name": "test_set.exe (bin\\test_set.exe)"
+    }
+  ]
+}
