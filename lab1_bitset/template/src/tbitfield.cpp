@@ -6,6 +6,7 @@
 // Битовое поле
 
 #include "tbitfield.h"
+#define ONE_MEM_BITS (sizeof(TELEM) * 8)
 
 // Fake variables used as placeholders in tests
 static const int FAKE_INT = -1;
