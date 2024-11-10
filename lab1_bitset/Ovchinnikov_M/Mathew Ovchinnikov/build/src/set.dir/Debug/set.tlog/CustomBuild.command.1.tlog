@@ -1,0 +1,10 @@
+^C:\USERS\BESTA\3823B1PR2\LAB1_BITSET\TEMPLATE\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/BeSTa/3823B1PR2/lab1_bitset/template "-BC:/Users/BeSTa/3823B1PR2/lab1_bitset/Mathew Ovchinnikov/build" --check-stamp-file "C:/Users/BeSTa/3823B1PR2/lab1_bitset/Mathew Ovchinnikov/build/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

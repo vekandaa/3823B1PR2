@@ -1,0 +1,5 @@
+C:/Users/Полина/3823B1PR2/lab2_matrix/YUSHKOVA/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Полина/3823B1PR2/lab2_matrix/YUSHKOVA/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Полина/3823B1PR2/lab2_matrix/YUSHKOVA/build/samples/CMakeFiles/matrix.dir
+C:/Users/Полина/3823B1PR2/lab2_matrix/YUSHKOVA/build/test/CMakeFiles/test_matrix.dir
+C:/Users/Полина/3823B1PR2/lab2_matrix/YUSHKOVA/build/gtest/CMakeFiles/gtest.dir

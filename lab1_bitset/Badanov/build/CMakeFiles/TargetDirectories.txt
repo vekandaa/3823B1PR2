@@ -1,0 +1,14 @@
+/Users/alexandr/Documents/GitHub/3823B1PR2/lab1_bitset/template/build/CMakeFiles/edit_cache.dir
+/Users/alexandr/Documents/GitHub/3823B1PR2/lab1_bitset/template/build/CMakeFiles/rebuild_cache.dir
+/Users/alexandr/Documents/GitHub/3823B1PR2/lab1_bitset/template/build/src/CMakeFiles/set.dir
+/Users/alexandr/Documents/GitHub/3823B1PR2/lab1_bitset/template/build/src/CMakeFiles/edit_cache.dir
+/Users/alexandr/Documents/GitHub/3823B1PR2/lab1_bitset/template/build/src/CMakeFiles/rebuild_cache.dir
+/Users/alexandr/Documents/GitHub/3823B1PR2/lab1_bitset/template/build/samples/CMakeFiles/sample_prime_numbers.dir
+/Users/alexandr/Documents/GitHub/3823B1PR2/lab1_bitset/template/build/samples/CMakeFiles/edit_cache.dir
+/Users/alexandr/Documents/GitHub/3823B1PR2/lab1_bitset/template/build/samples/CMakeFiles/rebuild_cache.dir
+/Users/alexandr/Documents/GitHub/3823B1PR2/lab1_bitset/template/build/gtest/CMakeFiles/gtest.dir
+/Users/alexandr/Documents/GitHub/3823B1PR2/lab1_bitset/template/build/gtest/CMakeFiles/edit_cache.dir
+/Users/alexandr/Documents/GitHub/3823B1PR2/lab1_bitset/template/build/gtest/CMakeFiles/rebuild_cache.dir
+/Users/alexandr/Documents/GitHub/3823B1PR2/lab1_bitset/template/build/test/CMakeFiles/test_set.dir
+/Users/alexandr/Documents/GitHub/3823B1PR2/lab1_bitset/template/build/test/CMakeFiles/edit_cache.dir
+/Users/alexandr/Documents/GitHub/3823B1PR2/lab1_bitset/template/build/test/CMakeFiles/rebuild_cache.dir

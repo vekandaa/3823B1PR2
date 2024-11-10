@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/slana/3823B1PR2/lab1_bitset/template/out/build/x64-Debug/samples/CMakeFiles/sample_prime_numbers.dir/embed.manifest"
